@@ -12,7 +12,7 @@ export function Footer() {
         </div>
         <p className="max-w-xl text-xs font-medium leading-relaxed text-ink-mute">
           Las organizaciones políticas y la participación por ubigeo mostradas en este panel provienen
-          del padrón oficial de candidaturas (ERM2026). El escrutinio por mesa de sufragio se activa el
+          del padrón de candidaturas ERM2026. El escrutinio por mesa de sufragio se activa el
           4 de octubre de 2026. NeuroLink Data es independiente y no representa al JNE, la ONPE ni al RENIEC.
         </p>
       </div>

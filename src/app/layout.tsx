@@ -24,7 +24,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "NeuroLink Data · ERM2026",
   description:
-    "Panel de cobertura electoral ERM2026 de NeuroLink Data: organizaciones políticas y participación por ubigeo, a partir del padrón oficial de candidaturas.",
+    "Panel de cobertura electoral ERM2026 de NeuroLink Data: organizaciones políticas y participación por ubigeo, a partir del padrón de candidaturas.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

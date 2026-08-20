@@ -7,7 +7,7 @@ export function SourceBadge() {
   return (
     <Badge color="#0ca30c">
       <CheckCircle2 size={12} strokeWidth={2.5} />
-      PADRÓN OFICIAL DE CANDIDATURAS
+      PADRÓN DE CANDIDATURAS ERM2026
     </Badge>
   );
 }

@@ -19,7 +19,7 @@ export function DashboardPanel() {
       <div className="mb-8 flex items-start gap-3 rounded-md border border-brand-amber/35 bg-brand-amber/10 px-4 py-3 text-sm text-ink-soft">
         <AlertTriangle size={18} className="mt-0.5 shrink-0 text-brand-amber" />
         <p className="leading-relaxed">
-          Este panel muestra el <strong className="text-ink">padrón oficial de candidaturas inscritas</strong> por
+          Este panel muestra el <strong className="text-ink">padrón de candidaturas inscritas</strong> por
           región, provincia y distrito. No son resultados de votación: el escrutinio en vivo, mesa por mesa,
           se activa el <strong className="text-ink">4 de octubre de 2026</strong>, con actas reportadas por los
           personeros al cierre de cada mesa de sufragio.

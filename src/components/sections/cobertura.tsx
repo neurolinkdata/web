@@ -28,7 +28,7 @@ export function Cobertura() {
           eyebrow="Cobertura nacional"
           eyebrowColor="var(--brand-cyan)"
           title="25 departamentos, un mismo padrón"
-          subtitle="Candidaturas inscritas por departamento, consolidadas desde el padrón oficial ERM2026. A más intensidad, más organizaciones políticas compiten en ese territorio."
+          subtitle="Candidaturas inscritas por departamento, consolidadas desde el padrón de candidaturas ERM2026. A más intensidad, más organizaciones políticas compiten en ese territorio."
         />
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
           {departamentos.map((d) => (

@@ -46,15 +46,14 @@ export function Hero() {
         <div>
           <Eyebrow color="var(--brand-cyan)">Elecciones Regionales y Municipales · Perú</Eyebrow>
           <h1 className="font-display mb-6 text-4xl font-bold leading-[1.05] tracking-tight text-ink md:text-5xl lg:text-6xl">
-            Cobertura electoral,
+            Conteo instantáneo.
             <br />
-            <span className="text-brand-red">directo del padrón oficial.</span>
+            <span className="text-brand-red">Resultados en tiempo real.</span>
           </h1>
           <p className="mb-8 max-w-xl text-base leading-relaxed text-ink-soft md:text-lg">
-            NeuroLink Data consolida qué organizaciones políticas compiten en cada región, provincia y
-            distrito del país, a partir del padrón oficial de candidaturas ERM2026. El día de la
-            jornada electoral, el mismo panel se activa para el escrutinio en vivo, registrado mesa por
-            mesa por los propios personeros.
+            NeuroLink Data monitorea la jornada electoral ERM2026 región por región, con
+            actualización continua y trazabilidad de cada acta procesada. Un solo panel para seguir
+            gobernaciones regionales y alcaldías en todo el país.
           </p>
 
           <div className="mb-10 flex flex-wrap gap-3">

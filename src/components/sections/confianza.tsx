@@ -22,7 +22,7 @@ export function Confianza() {
           <SectionTitle>Independientes, verificables y a tiempo</SectionTitle>
           <p className="my-4 text-sm leading-relaxed text-ink-soft md:text-base">
             Cada cifra de este panel indica de dónde viene: el padrón de organizaciones políticas y la
-            participación por ubigeo se generan directamente desde la fuente oficial de candidaturas
+            participación por ubigeo se generan directamente desde las candidaturas inscritas para
             ERM2026, sin datos inventados ni proyecciones propias.
           </p>
           <p className="text-sm leading-relaxed text-ink-soft md:text-base">

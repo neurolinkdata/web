@@ -33,7 +33,7 @@ export function TopOrganizacionesChart() {
         </h4>
       </div>
       <p className="mb-4 text-xs font-medium text-ink-mute">
-        Total de postulaciones a nivel nacional (regional + provincial + distrital), padrón oficial ERM2026.
+        Total de postulaciones a nivel nacional (regional + provincial + distrital), padrón de candidaturas ERM2026.
       </p>
       <div className="h-80">
         {isLoading || top.length === 0 ? (

@@ -1,8 +1,8 @@
 const TICKER_ITEMS = [
   "Panel de participación electoral activo — el conteo de actas se habilita el 04/10/2026",
-  "ONPE confirma cronograma oficial de la jornada electoral ERM2026",
+  "Cronograma de la jornada electoral ERM2026 confirmado",
   "25 regiones, 221 provincias y 1,917 distritos con candidaturas inscritas",
-  "NeuroLink Data consolida el padrón oficial de organizaciones políticas",
+  "NeuroLink Data consolida el padrón de organizaciones políticas",
   "Cobertura nacional: 25 departamentos monitoreados en simultáneo",
   "El día de la elección, el panel se activa con el escrutinio reportado por personeros de mesa",
 ];

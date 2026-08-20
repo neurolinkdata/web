@@ -6,7 +6,7 @@ import { FICHA_TECNICA } from "@/domain/constants";
 const PUNTOS = [
   "Cada acta es reportada por el personero de mesa al cierre del escrutinio, mesa por mesa",
   "El registro se organiza por tipo de elección: regional, provincial y distrital",
-  "El padrón de organizaciones políticas y su participación por ubigeo se valida contra la fuente oficial del JNE",
+  "El padrón de organizaciones políticas y su participación por ubigeo se valida contra las candidaturas publicadas por el JNE",
 ];
 
 export function Metodologia() {
@@ -20,9 +20,9 @@ export function Metodologia() {
             La técnica de NeuroLink Data es la recolección del escrutinio por mesa de sufragio y por tipo
             de elección al cierre de la votación, registrado por los mismos personeros de mesa. Ese
             registro se agrega en tiempo real el día de la jornada electoral. Antes de esa fecha, el
-            panel muestra el padrón oficial de organizaciones políticas y su participación por ubigeo
-            electoral (regional, provincial o distrital), construido a partir de la fuente oficial
-            publicada por el JNE.
+            panel muestra el padrón de organizaciones políticas y su participación por ubigeo
+            electoral (regional, provincial o distrital), construido a partir de las candidaturas
+            publicadas por el JNE.
           </p>
           <ul className="space-y-3">
             {PUNTOS.map((p) => (
