@@ -102,7 +102,7 @@ export function ParticipacionPanel() {
 
       <div className="mt-6 flex items-center gap-2 border-t border-border pt-4 text-xs font-medium text-ink-mute">
         <ListChecks size={14} className="text-brand-cyan" />
-        Fuente: padrón de candidaturas ERM2026 (resultado_datoGeneral.xlsx).
+        Fuente: Información de Portales Públicos.
       </div>
     </Card>
   );

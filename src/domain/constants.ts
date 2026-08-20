@@ -18,7 +18,7 @@ export const FICHA_TECNICA = [
   { label: "Naturaleza del dato", value: "Tabulación de Votos en Paralelo (PVT) por cobertura — no es encuesta ni proyección muestral" },
   { label: "Técnica de recolección", value: "Acta de cada mesa, reportada por el propio personero al culminar el escrutinio" },
   { label: "Unidad de registro", value: "Mesa de sufragio, por tipo de elección" },
-  { label: "Fuente del padrón", value: "resultado_datoGeneral.xlsx — candidaturas ERM2026 publicadas por el JNE" },
+  { label: "Fuente del padrón", value: "Información de Portales Públicos" },
   { label: "Cobertura del padrón", value: "25 departamentos · 221 provincias · 1,917 distritos" },
   { label: "Activación del conteo en vivo", value: "4 de octubre de 2026, al cierre de cada mesa" },
 ];
