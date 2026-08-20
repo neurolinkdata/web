@@ -36,7 +36,7 @@ export function Header() {
               NEUROLINK <span className="text-brand-red">DATA</span>
             </div>
             <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-brand-cyan">
-              ERM2026 · Encuestadora digital
+              ERM2026 · Parallel Vote Tabulation (PVT)
             </div>
           </div>
         </a>

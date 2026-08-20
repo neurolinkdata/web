@@ -36,13 +36,13 @@ export function Contacto() {
             </a>
 
             <a
-              href="mailto:neurolink.data@gmail.com"
+              href="mailto:neurolinkdata@gmail.com"
               className="flex items-center gap-4 rounded-lg border border-border bg-surface p-4 transition-colors hover:bg-surface-hover"
             >
               <StatIcon icon={Mail} color="var(--brand-cyan)" />
               <div>
                 <div className="text-xs font-medium text-ink-mute">Correo</div>
-                <div className="text-sm font-bold text-ink">neurolink.data@gmail.com</div>
+                <div className="text-sm font-bold text-ink">neurolinkdata@gmail.com</div>
               </div>
               <ChevronRight size={16} className="ml-auto text-ink-mute" />
             </a>
@@ -59,7 +59,7 @@ export function Contacto() {
               const body = encodeURIComponent(
                 `Nombre: ${data.get("nombre")}\nOrganización: ${data.get("org")}\nMensaje: ${data.get("mensaje")}`
               );
-              window.location.href = `mailto:neurolink.data@gmail.com?subject=Contacto%20desde%20la%20web&body=${body}`;
+              window.location.href = `mailto:neurolinkdata@gmail.com?subject=Contacto%20desde%20la%20web&body=${body}`;
             }}
           >
             <input

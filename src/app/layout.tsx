@@ -22,9 +22,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NeuroLink Data · ERM2026",
+  title: "NeuroLink Data · ERM2026 · Parallel Vote Tabulation (PVT)",
   description:
-    "Panel de cobertura electoral ERM2026 de NeuroLink Data: organizaciones políticas y participación por ubigeo, a partir del padrón de candidaturas.",
+    "NeuroLink Data: Tabulación de Votos en Paralelo (PVT) para ERM2026 — organizaciones políticas y participación por ubigeo, a partir del padrón de candidaturas.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

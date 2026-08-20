@@ -11,9 +11,9 @@ export function Confianza() {
           <h3 className="font-display mb-1 text-lg font-bold text-ink">NeuroLink Data</h3>
           <p className="mb-4 text-xs font-semibold text-brand-amber">Persona natural con negocio · RUC 10413539175</p>
           <p className="text-sm leading-relaxed text-ink-soft">
-            Somos una encuestadora digital independiente. No formamos parte del JNE, la ONPE ni el
-            RENIEC: nuestros datos son un servicio informativo privado, complementario a las fuentes
-            oficiales.
+            Somos una plataforma independiente de Tabulación de Votos en Paralelo (PVT). No formamos
+            parte del JNE, la ONPE ni el RENIEC: nuestros datos son un servicio informativo privado,
+            complementario a las fuentes oficiales.
           </p>
         </Card>
 
