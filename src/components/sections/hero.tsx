@@ -52,8 +52,9 @@ export function Hero() {
           </h1>
           <p className="mb-8 max-w-xl text-base leading-relaxed text-ink-soft md:text-lg">
             NeuroLink Data monitorea la jornada electoral ERM2026 región por región, con
-            actualización continua y trazabilidad de cada acta procesada. Un solo panel para seguir
-            gobernaciones regionales y alcaldías en todo el país.
+            actualización continua y trazabilidad de cada acta procesada apenas se escrutan los
+            votos en la mesa de sufragio. Un solo panel para seguir gobernaciones regionales y
+            alcaldías en todo el país.
           </p>
 
           <div className="mb-10 flex flex-wrap gap-3">

@@ -2,9 +2,11 @@ import { CheckCircle2 } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Eyebrow, SectionTitle } from "@/components/ui/typography";
 import { FICHA_TECNICA } from "@/domain/constants";
+import { MetodoComparacion } from "./metodo-comparacion";
 
 const PUNTOS = [
-  "Cada acta es reportada por el personero de mesa al cierre del escrutinio, mesa por mesa",
+  "Cada acta es reportada por el personero de mesa al culminar el escrutinio, mesa por mesa",
+  "No es una encuesta ni una proyección: es la suma de actas reales, sin muestreo estadístico",
   "El registro se organiza por tipo de elección: regional, provincial y distrital",
   "El padrón de organizaciones políticas y su participación por ubigeo se valida contra las candidaturas publicadas por el JNE",
 ];
@@ -17,12 +19,12 @@ export function Metodologia() {
           <Eyebrow color="var(--brand-red)">Metodología</Eyebrow>
           <SectionTitle>Cómo construimos cada cifra</SectionTitle>
           <p className="my-5 text-sm leading-relaxed text-ink-soft md:text-base">
-            La técnica de NeuroLink Data es la recolección del escrutinio por mesa de sufragio y por tipo
-            de elección al cierre de la votación, registrado por los mismos personeros de mesa. Ese
-            registro se agrega en tiempo real el día de la jornada electoral. Antes de esa fecha, el
-            panel muestra el padrón de organizaciones políticas y su participación por ubigeo
-            electoral (regional, provincial o distrital), construido a partir de las candidaturas
-            publicadas por el JNE.
+            La técnica de NeuroLink Data es el registro directo del escrutinio, mesa por mesa y por
+            tipo de elección, en el momento en que el personero culmina el conteo de votos en su mesa
+            de sufragio. Ese registro se agrega casi al instante conforme avanza la jornada electoral,
+            dentro del marco normativo que rige ese día. Antes de esa fecha, el panel muestra el padrón
+            de organizaciones políticas y su participación por ubigeo electoral (regional, provincial o
+            distrital), construido a partir de las candidaturas publicadas por el JNE.
           </p>
           <ul className="space-y-3">
             {PUNTOS.map((p) => (
@@ -43,6 +45,8 @@ export function Metodologia() {
           ))}
         </div>
       </div>
+
+      <MetodoComparacion />
     </section>
   );
 }
