@@ -92,3 +92,23 @@ export const VENTAJAS_PVT = [
     detalle: "A más mesas reportadas, el consolidado se acerca más al resultado final — no por inferencia estadística, sino porque efectivamente se sumó más dato real.",
   },
 ];
+
+/**
+ * Control de calidad aplicado a cada registro de escrutinio, antes de
+ * integrarse al consolidado. No es un filtro estadístico sobre una
+ * muestra: son validaciones sobre el dato real de cada mesa.
+ */
+export const CONTROL_CALIDAD = [
+  {
+    titulo: "Reglas de negocio del acta",
+    detalle: "Cada registro se valida contra la estructura del acta electoral: blancos, nulos, votos válidos y el total de votos emitidos deben cuadrar antes de integrarse al consolidado.",
+  },
+  {
+    titulo: "Discriminación de valores atípicos",
+    detalle: "Una cifra que se aparta del patrón esperado para su mesa queda marcada y separada para revisión, en vez de sumarse al consolidado sin control.",
+  },
+  {
+    titulo: "Consenso de mayoría",
+    detalle: "Cuando más de una fuente reporta la misma mesa, se integra el resultado que coincide entre la mayoría de los reportes, y se documenta la diferencia si no hay coincidencia.",
+  },
+];

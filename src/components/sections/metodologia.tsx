@@ -8,6 +8,7 @@ const PUNTOS = [
   "Es una Tabulación de Votos en Paralelo (PVT): un registro independiente, no una encuesta",
   "Cada acta es reportada por el personero de mesa al culminar el escrutinio, mesa por mesa",
   "No muestrea ni proyecta: es la suma de actas reales, sin margen de error muestral",
+  "Cada registro pasa por reglas de negocio del acta, discriminación de valores atípicos y consenso de mayoría antes de integrarse al consolidado",
   "El registro se organiza por tipo de elección: regional, provincial y distrital",
   "El padrón de organizaciones políticas y su participación por ubigeo se valida contra las candidaturas publicadas por el JNE",
 ];

@@ -1,7 +1,9 @@
-import { CheckCircle2 } from "lucide-react";
+import { AlertTriangle, CheckCircle2, ScrollText, Users } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { COLUMNAS_COMPARACION, FILAS_COMPARACION, VENTAJAS_PVT } from "@/domain/constants";
+import { COLUMNAS_COMPARACION, CONTROL_CALIDAD, FILAS_COMPARACION, VENTAJAS_PVT } from "@/domain/constants";
+
+const ICONO_CONTROL_CALIDAD = [ScrollText, AlertTriangle, Users];
 
 /**
  * Explica la PVT (Parallel Vote Tabulation / Tabulación de Votos en
@@ -71,6 +73,28 @@ export function MetodoComparacion() {
             ))}
           </tbody>
         </table>
+      </div>
+
+      <div className="mt-10">
+        <h4 className="text-sm font-bold uppercase tracking-wide text-ink">Control de calidad, mesa por mesa</h4>
+        <p className="mt-1 max-w-3xl text-xs leading-relaxed text-ink-soft">
+          Cada registro de escrutinio pasa por validaciones antes de sumarse al consolidado — no se
+          integra en crudo.
+        </p>
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          {CONTROL_CALIDAD.map((c, i) => {
+            const Icon = ICONO_CONTROL_CALIDAD[i];
+            return (
+              <Card key={c.titulo} className="p-4">
+                <div className="mb-1.5 flex items-center gap-2">
+                  <Icon size={16} className="shrink-0 text-brand-red" />
+                  <span className="text-sm font-bold text-ink">{c.titulo}</span>
+                </div>
+                <p className="text-xs leading-relaxed text-ink-soft">{c.detalle}</p>
+              </Card>
+            );
+          })}
+        </div>
       </div>
 
       <div className="mt-8">
